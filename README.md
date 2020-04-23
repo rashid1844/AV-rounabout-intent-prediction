@@ -42,6 +42,8 @@ Four methods were used to model this problem. First, a deep learning network wit
 ## Simulator:
 To test the accuracy of the model, we tested it on CARLA simulator. One thing to point is that the data was recorded in Australia with right-hand-side roads. To make the model work for left-hand-side, I multiplied the polynomial coefficient of the trajectory with negative one, which should inverse the trajectory. A video from the simulator is included.
 
+[simulation video](CARLA/intersection_prediction.mp4)
+
 ## Future work:
 The five roundabouts from the dataset were a single-lane roundabout with a diameter of 8-10 meters. This means that the model might not generalize to multiple lanes or a different diameter roundabout. So hopefully, with the help of new datasets with multiple lanes or a different diameter roundabout, the model will be able to generalize. A feature that must be added to the model is the distance of the center of the car to the center of the roundabout. This feature captures the size of the roundabout and the specific lane in which the vehicle is driving.
 
