@@ -8,6 +8,7 @@
 * Creating a model
 * Simulator
 * Future work
+* Running the code
 * References
 
 
@@ -47,7 +48,11 @@ To test the accuracy of the model, we tested it on CARLA simulator. One thing to
 ## Future work:
 The five roundabouts from the dataset were a single-lane roundabout with a diameter of 8-10 meters. This means that the model might not generalize to multiple lanes or a different diameter roundabout. So hopefully, with the help of new datasets with multiple lanes or a different diameter roundabout, the model will be able to generalize. A feature that must be added to the model is the distance of the center of the car to the center of the roundabout. This feature captures the size of the roundabout and the specific lane in which the vehicle is driving.
 
-
+## Running the code:
+1. Install the dataset using the link in the References
+2. Add the dataset the same directory as the code
+3. Run preprocessing.ipynb to preprocess the data
+4. Run Algorithm_training.ipynb to train the models
 
 ## References:
 - http://its.acfr.usyd.edu.au/datasets/five-roundabouts-dataset/
