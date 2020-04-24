@@ -52,7 +52,7 @@ The five roundabouts from the dataset were a single-lane roundabout with a diame
 1. Install the dataset using the link in the References
 2. Add the dataset the same directory as the code
 3. Run preprocessing.ipynb to preprocess the data
-4. Run Algorithm_training.ipynb to train the models
+4. Run training.ipynb to train the models
 
 ## References:
 - http://its.acfr.usyd.edu.au/datasets/five-roundabouts-dataset/
