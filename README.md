@@ -41,7 +41,7 @@ Four methods were used to model this problem. First, a deep learning network wit
 | Ada Boost     | 98.9%    | 0.18  | 1.24         |
 
 ## Simulator:
-To test the accuracy of the model, we tested it on CARLA simulator. One thing to point is that the data was recorded in Australia with right-hand-side roads. To make the model work for left-hand-side, I multiplied the polynomial coefficient of the trajectory with negative one, which should inverse the trajectory. A video from the simulator is included.
+To test the accuracy of the model, we tested it on CARLA simulator. One thing to point is that the data was recorded in Australia with right-hand-side roads. To make the model work for left-hand-side, I multiplied the polynomial coefficient of the trajectory with negative one, which should inverse the trajectory. A video from the simulator is included. To run the simulator code, odwnload CARLA from [carla.org](https://carla.org/), and add the file from CARLA folder to it's correct directory.
 
 [simulation video](CARLA/intersection_prediction.mp4)
 
