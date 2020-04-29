@@ -62,3 +62,6 @@ The five roundabouts from the dataset were a single-lane roundabout with a diame
 - https://www.dropbox.com/s/adg1p3iyzjcad3l/five_roundabouts.zip?dl=0
 
 - A video explaining intent recognition: https://youtu.be/ehfA_NC7Ka4
+
+
+Note: This project is part of a Machine learning course taught by Dr.Davor Svetinovic
